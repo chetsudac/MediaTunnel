@@ -8,17 +8,35 @@
 
     <link rel="stylesheet" type="text/css" href="./reset.css" />
     <link rel="stylesheet" type="text/css" href="./main.css" />
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chango&family=Instrument+Serif:ital@0;1&family=Kulim+Park&family=Nanum+Myeongjo&display=swap" rel="stylesheet">
   </head>
+  
   <body>
     <main>
       <div class="flex-container">
-        <img class="desktop-image--left" src="./assets/original.jpg">
-        <img class="desktop-image--right" src="./assets/laptop.jpeg">
-        <img class="tablet-image--left" src="./assets/montanas.jpg">
-        <img class="tablet-image--right" src="./assets/tablet.jpeg">
-        <img class="mobile-image--left" src="./assets/aleutians.jpg">
-        <img class="mobile-image--right" src="./assets/mobile.jpeg">
+
+        <div class="text-container">
+        <div class="desktop-text"><div>Shinn East</div><div class="address">119 E 7th St</div></div>
+        </div>
+        <div class="text-container">
+        <div class="tablet-text">omakase</div>
+        </div>
+        <div class="text-container">
+        <div class="mobile-text">YUMM!</div>
+        </div>
+
+        <video  class="tablet-video"  preload="auto" autoplay="true" loop="loop" muted="" volume="0">
+          <source src="./assets/tablet.mp4" type="video/mp4" />
+      </video>
+        
+        <img class="desktop-image" src="./assets/desktop.jpeg">
+
+
+        <img class="mobile-image--top" src="./assets/mobile.jpeg">
+        <img class="mobile-image--bottom" src="./assets/mobile2.jpeg">
+
       </div>  
       <button class="toggle-container">
         <div class="toggle-circle"></div>
